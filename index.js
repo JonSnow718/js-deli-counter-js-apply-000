@@ -5,6 +5,13 @@ function takeANumber(KatzDeliLine, name) {
   KatzDeliLine.push(name)
   return "Welcome, " + name + "." + " You are number " + position +" in line."
 }
+var orderCount = 0;
+function takeANumber2() {
+  orderCount = orderCount + 1;
+  return "Welcome your order number is" + orderCount 
+}
+console.log(takeANumber2())
+console.log(takeANumber2())
 
 function nowServing(KatzDeliLine) {
   var name;
